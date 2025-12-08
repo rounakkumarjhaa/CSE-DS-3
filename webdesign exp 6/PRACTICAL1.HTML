@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navigation Menu Demo</title>
+
+<style>
+  /* BLOCK – header takes full width */
+  header {
+    display: block;
+    background: #284b63;
+    color: #fff;
+    padding: 15px;
+    font-size: 22px;
+  }
+
+  /* NAV – wrapping menu */
+  nav {
+    background: #d9e3eb;
+    padding: 10px;
+  }
+
+  /* INLINE-BLOCK menu items */
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  /* FLOAT right example */
+  .right-menu {
+    float: right;
+  }
+
+  /* INLINE usage */
+  .inline-text {
+    display: inline;
+    font-size: 14px;
+    color: #333;
+  }
+</style>
+</head>
+
+<body>
+<header>
+  College Website &raquo; Navigation Menu Demo
+</header>
+
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>About&nbsp;Us</li>
+    <li>Departments</li>
+    <li>Admissions</li>
+    <li>Contact</li>
+
+    <!-- Float menu right -->
+    <li class="right-menu">Login →</li>
+  </ul>
+</nav>
+
+<section style="padding: 20px;">
+  <h2>Welcome!</h2>
+  <p class="inline-text">
+    This text is <strong>inline</strong> with other characters | using char like pipes (|)
+    and arrow symbols → .
+  </p>
+</section>
+
+<footer style="background:#284b63;color:white;padding:10px;text-align:center;">
+  &copy; 2025 All Rights Reserved |
+  Made using Block, Inline, Inline-block, Float &amp; Char
+</footer>
+
+</body>
+</html>
