@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Navigation Menu Demo</title>
+<style>
+  /* BLOCK element */
+  header {
+    display: block;
+    background: #004e92;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  /* Navigation bar (BLOCK by default) */
+  nav {
+    background: #e8f3ff;
+    padding: 10px;
+  }
+
+  /* INLINE-BLOCK menu items */
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 10px;
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /* FLOAT Example */
+  .right-menu {
+    float: right;
+    background: #99c2ff;
+  }
+
+  /* CLEAR Example */
+  .clear {
+    clear: both;
+  }
+
+  /* INLINE Example */
+  .inline-text {
+    display: inline;
+    font-size: 14px;
+    color: #333;
+  }
+
+  footer {
+    display: block;
+    background: #004e92;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+  }
+
+</style>
+</head>
+
+<body>
+  <header>
+    College Website – Navigation Menu Example
+  </header>
+
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About&nbsp;Us</li>
+      <li>Courses</li>
+      <li>Gallery</li>
+      <li>Contact</li>
+
+      <!-- Float to right side -->
+      <li class="right-menu">Login</li>
+    </ul>
+
+    <!-- Clear the float to avoid overlap -->
+    <div class="clear"></div>
+  </nav>
+
+  <section style="padding: 15px;">
+    <h2>Main Content</h2>
+
+    <p class="inline-text">
+      This text is displayed inline using CSS | no new line starts |
+      symbols like | &nbsp;→ &nbsp; ← &nbsp; are used here.
+    </p>
+  </section>
+
+  <footer>
+    © 2025 | Block, Inline, Inline-Block, Float & Clear Demonstration
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.nav-container {
+  border: 2px solid #333;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.nav-item {
+  padding: 10px;
+  margin: 5px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Display types */
+.block {
+  display: block;
+  background-color: #2196F3;
+}
+
+.inline {
+  display: inline;
+  background-color: #FF9800;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: #9C27B0;
+}
+
+/* Float examples */
+.float-left {
+  float: left;
+  background-color: #E91E63;
+}
+
+.float-right {
+  float: right;
+  background-color: #795548;
+}
+
+/* Clear float */
+.clear {
+  clear: both;
+}
